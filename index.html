@@ -112,9 +112,9 @@
             setTimeout(function() {
                 $("#code").show().typewriter();
                 var s1 = new Date();
-                var s2 = new Date("2018-01-20 08:30:48" );
+                var s2 = new Date("2018-01-20");
                 var s3 = s1.getTime() - s2.getTime();
-                var ts = Math.ceil (s3 / (24*60*60*1000));
+                var ts = Math.ceil(s3 / (24*60*60*1000));
                 $("#clock").text(ts)
                 $("#clock-box").fadeIn(500);
             }, 1000);
